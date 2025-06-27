@@ -1,0 +1,10 @@
+flutter_native_splash:
+  android: true
+  ios: true
+
+  color: "#FFFFFF"
+
+  android_12:
+    color: "#FFFFFF"
+    image: "assets/heritage_hub_logo.png"
+    branding: "assets/heritage_hub.png"
