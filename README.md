@@ -131,6 +131,6 @@ flutter run  #Ignore if you see any compilesdk errors it wont effect the build
 
 ## Project Demo
 
-[![Heritage Hub Demo Video][(https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)](https://drive.google.com/file/d/1LFD9Z5tgqAppt6ZeF0wkjqrx5K_HNUXb/view?usp=sharing)
+[Heritage Hub Demo Video][https://drive.google.com/file/d/1LFD9Z5tgqAppt6ZeF0wkjqrx5K_HNUXb/view?usp=sharing](https://drive.google.com/file/d/1LFD9Z5tgqAppt6ZeF0wkjqrx5K_HNUXb/view?usp=sharing)
 
 Click the thumbnail above to watch the full demo on YouTube
