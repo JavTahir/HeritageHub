@@ -1,18 +1,23 @@
 # HeritageHub
 
-# family_tree_app
+# Heritage Hub - Family Tree Management System
 
-A new Flutter project.
+Heritage Hub is a comprehensive family tree management application that helps users maintain and visualize their family connections. It provides features for family member registration, relationship mapping, visual family tree generation, and temple associations based on community (Samaj).
 
-## Getting Started
+## Directory Structure
 
-This project is a starting point for a Flutter application.
+lib/
+├── core/
+│   ├── constants/     # App constants, themes, and configurations
+│   ├── services/      # Core services (Firebase, Cloudinary, etc.)
+│   ├── utils/         # Utility functions and helpers
+│   └── widgets/       # Reusable custom widgets
+├── features/          # Feature-specific screens and components
+├── models/            # Data models and DTOs
+├── providers/         # State management providers
+└── main.dart          # Application entry point
 
-A few resources to get you started if this is your first Flutter project:
+android/               # Android-specific configurations
+ios/                   # iOS-specific configurations
+pubspec.yaml           # Flutter dependencies and metadata
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
