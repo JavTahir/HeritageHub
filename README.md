@@ -31,6 +31,26 @@ pubspec.yaml           # Flutter dependencies and metadata
   - Head Testing Number: `+923165501493`
   - Member Testing Number: `+921234567898`
   - OTP for both: `123456`
+  #### Important Note About Test Numbers
+These specific numbers are configured for **development purposes only** because:
+
+  1. **Firebase Phone Auth Requirements**:
+     - Production usage requires a [paid billing account](https://firebase.google.com/docs/auth/android/phone-auth#enable-phone-authentication)
+     - Without billing, only whitelisted test numbers work
+  
+  2. **Cost Considerations**:
+     - Real phone authentication incurs SMS charges
+     - Test numbers avoid unnecessary costs during development
+  
+  3. **How to Use Real Numbers**:
+     ```bash
+     # If you have billing enabled:
+     1. Go to Firebase Console > Authentication
+     2. Enable "Phone" authentication provider
+     3. Remove test numbers from whitelist
+     4. The app will then work with any Pakistani (+92) number
+
+
 
 ### 2. Auto-linking of Family Members
 - Automatic connection of members to Head via relationship mapping
