@@ -129,7 +129,8 @@ flutter run  #Ignore if you see any compilesdk errors it wont effect the build
 
 ### 3. Temples Collection Configuration
 
-For the temple association feature to work, you need to create a `temples` collection in Firestore with the following structure:
+For the temple association feature to work, you need to create a `temples` collection in Firestore with the following structure- you can also use any temples-data api
+but for now i added them manually:
 
 ```javascript
 // Collection: temples
@@ -142,8 +143,16 @@ For the temple association feature to work, you need to create a `temples` colle
   name: "Shree Swaminarayan Temple",  // string
   samaj: "Swaminarayan"  // string (must match Samaj names in your app)
 }
-```
 
+{
+  contactNumber: "+919876543211",  // string
+  description: "Ancient Brahmin temple",  // string
+  imageUrl: "https://www.jangidbrahminsamaj.com/gallery/g75.jpg",  // string
+  location: "Varanasi, UP",  // string
+  name: "Brahmin Samaj Mandir",  // string
+  samaj: "Brahmin"  // string (must match Samaj names in your app)
+}
+```
 
 Good Job! You are ready to o now.Feel free to contribute in this project and share more valuabe features to add
 
