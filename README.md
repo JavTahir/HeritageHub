@@ -127,7 +127,7 @@ flutter run  #Ignore if you see any compilesdk errors it wont effect the build
   ```
 
 
-###Good Job! You are ready to o now.Feel free to contribute in this project and share more valuabe features to add
+Good Job! You are ready to o now.Feel free to contribute in this project and share more valuabe features to add
 
 ## Project Demo
 [![Heritage Hub Demo Video](https://drive.google.com/thumbnail?id=1LFD9Z5tgqAppt6ZeF0wkjqrx5K_HNUXb)](https://drive.google.com/file/d/1LFD9Z5tgqAppt6ZeF0wkjqrx5K_HNUXb/view?usp=sharing)
