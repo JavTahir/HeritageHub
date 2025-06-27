@@ -6,6 +6,7 @@ Heritage Hub is a comprehensive family tree management application that helps us
 
 ## Directory Structure
 
+```plaintext
 lib/
 ├── core/
 │   ├── constants/     # App constants, themes, and configurations
@@ -20,4 +21,4 @@ lib/
 android/               # Android-specific configurations
 ios/                   # iOS-specific configurations
 pubspec.yaml           # Flutter dependencies and metadata
-
+```
