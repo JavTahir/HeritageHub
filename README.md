@@ -72,13 +72,60 @@ These specific numbers are configured for **development purposes only** because:
 - Role-based access control
 - Only Head can delete family member details
 
-### 7. Firebase Integration
+### 7. Comprehensive Form Validation
+- Validates all required fields before submission
+- Checks for proper phone number formats
+- Ensures email validity when provided
+- Validates date formats and logical age ranges
+- Relationship verification between family members
+
+### 8. Post-submission Overview
+- Summary of entered information
+- Quick access to newly added members
+
+### 9. Profile Photo Preview
+- Tap-to-view fullscreen profile photos
+- Hero animations for smooth transitions
+
+### 10. Cloudinary Integration  
+`As Firebase Storage requires Billing`
+- Add in core/services/cloudinary_services.dart, your cloudinary credentials
+
+
+## Usage
+
+### 1. Firebase Integration
 - Data persistence using Firestore
 - Phone authentication setup - enable phone auth provider
 - **Setup Instructions**:
   In your project directory:
   ```bash
   cd android
-  ./gradlew signingReport  # Get SHA256 key for Firebase config which will verify your device
+  ./gradlew signingReport  # Get SHA256 key for Firebase config which will verify your device.Add it in SHA-FingerPrint field in settings in Project Android App
   ```
-  
+
+### 2. Installation
+Clone repo:
+  ```bash
+ git clone [https://github.com/your-repo/heritage-hub.git](https://github.com/JavTahir/HeritageHub.git)
+ cd heritage-hub
+  ```
+
+Install dependencies:
+  ```bash
+flutter pub get
+  ```
+
+Create splash screen:
+  ```bash
+ dart run flutter_native_splash:create --path=native_splash.yaml
+  ```
+
+Run Project:
+  ```bash
+flutter run  #Ignore if you see any compilesdk errors it wont effect the build
+  ```
+
+
+###Good Job! You are ready to o now.Feel free to contribute in this project and share more valuabe features to add
+
