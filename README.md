@@ -111,11 +111,11 @@ These numbers are configured only for **development and testing**. If you **do n
 
 ## Usage
 
-### 1. Firebase Integration(if couldnt connect to already configured my firebase project)
+### 1. Firebase Integration (*if couldn't connect to already configured my firebase project*)
 - Data persistence using Firestore
 - Phone authentication setup - enable phone auth provider
 - **Setup Instructions**:
-- On dashboard, Select the flutter icon to create project and follow step by step instructions.After that in your flutter project directory run below commands
+  On dashboard, Select the flutter icon to create project and follow step by step instructions.After that in your flutter project directory run below commands
   ```bash
   cd android
   ./gradlew signingReport  # Get SHA256 key for Firebase config which will verify your device.Add it in SHA-FingerPrint field in settings in Project Android App
