@@ -26,13 +26,31 @@ pubspec.yaml           # Flutter dependencies and metadata
 ## Core Features
 
 ### 1. OTP-based Phone Authentication
-- **Testing Configuration**:
-  - Selected Country: Pakistan (+92)
-  - Head Testing Number: `+923165501493`
-  - Member Testing Number: `+921234567898`
-  - OTP for both: `123456`
-  #### Important Note About Test Numbers
-These specific numbers are configured for **development purposes only** because:
+
+- **Selected Country**: India `(+91)`
+- **Head (Primary User) Testing Number**: `+91 9123456789`
+- **Member (Family User) Testing Number**: `+91 7987654321`
+- **Default OTP for Both**: `123456`
+
+---
+
+#### 🚀 How It Works
+
+- When you launch the app for the first time, you’ll be prompted to **register as either a Head or a Member**.
+- If registering as a **Head**, use the **test number `+91 9123456789`**. This number is already configured in the **Phone Authentication** section of my Firebase project for testing.
+- After successful login and head registration, you can **add a family member**.
+- While adding the member’s phone number during registration, use **`+91 7987654321`** (also pre-configured).
+- Then, log in using this member number to **access the Member Dashboard**.
+
+---
+
+#### ⚠️ Important Note About Test Numbers
+
+These numbers are configured only for **development and testing**. If you **do not have access** to my Firebase project:
+
+- You won’t be able to use these numbers directly.
+- Instead, go to your **Firebase Console → Authentication → Sign-in Method → Phone**, and **add your own test numbers** with a static OTP (e.g., `123456`) for local testing.
+
 
   1. **Firebase Phone Auth Requirements**:
      - Production usage requires a [paid billing account](https://firebase.google.com/docs/auth/android/phone-auth#enable-phone-authentication)
@@ -48,7 +66,9 @@ These specific numbers are configured for **development purposes only** because:
      1. Go to Firebase Console > Authentication
      2. Enable "Phone" authentication provider
      3. Remove test numbers from whitelist
-     4. The app will then work with any Pakistani (+92) number
+     4. The app will then work with any number
+
+
 
 
 
