@@ -51,9 +51,10 @@ These numbers are configured only for **development and testing**. If you **do n
 - Instead, go to your **Firebase Console → Authentication → Sign-in Method → Phone**, and **add your own test numbers** with a static OTP (e.g., `123456`) for local testing.
 
 
-#### Firebase Phone Auth Requirements(For Production):
-     - Production usage requires a [paid billing account](https://firebase.google.com/docs/auth/android/phone-auth#enable-phone-authentication)
-     - Without billing, only whitelisted test numbers work(as described above)
+
+#### Firebase Phone Auth Requirements(For Production)
+ - Production usage requires a [paid billing account](https://firebase.google.com/docs/auth/android/phone-auth#enable-phone-authentication)
+ - Without billing, only whitelisted test numbers work(as described above)
   
   1. **Cost Considerations**:
      - Real phone authentication incurs SMS charges
@@ -66,9 +67,6 @@ These numbers are configured only for **development and testing**. If you **do n
      2. Enable "Phone" authentication provider
      3. Remove test numbers from whitelist
      4. The app will then work with any number
-
-
-
 
 
 ### 2. Auto-linking of Family Members
