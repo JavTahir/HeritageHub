@@ -32,7 +32,7 @@ pubspec.yaml           # Flutter dependencies and metadata
 - **Member (Family User) Testing Number**: `+91 7987654321`
 - **Default OTP for Both**: `123456`
 
----
+
 
 #### 🚀 How It Works
 
@@ -42,7 +42,6 @@ pubspec.yaml           # Flutter dependencies and metadata
 - While adding the member’s phone number during registration, use **`+91 7987654321`** (also pre-configured).
 - Then, log in using this member number to **access the Member Dashboard**.
 
----
 
 #### ⚠️ Important Note About Test Numbers
 
@@ -52,15 +51,15 @@ These numbers are configured only for **development and testing**. If you **do n
 - Instead, go to your **Firebase Console → Authentication → Sign-in Method → Phone**, and **add your own test numbers** with a static OTP (e.g., `123456`) for local testing.
 
 
-  1. **Firebase Phone Auth Requirements**:
+#### Firebase Phone Auth Requirements(For Production):
      - Production usage requires a [paid billing account](https://firebase.google.com/docs/auth/android/phone-auth#enable-phone-authentication)
-     - Without billing, only whitelisted test numbers work
+     - Without billing, only whitelisted test numbers work(as described above)
   
-  2. **Cost Considerations**:
+  1. **Cost Considerations**:
      - Real phone authentication incurs SMS charges
      - Test numbers avoid unnecessary costs during development
   
-  3. **How to Use Real Numbers**:
+  2. **How to Use Real Numbers**:
      ```bash
      # If you have billing enabled:
      1. Go to Firebase Console > Authentication
