@@ -111,7 +111,7 @@ These numbers are configured only for **development and testing**. If you **do n
 
 ## Usage
 
-### 1. Firebase Integration (*if couldn't connect to already configured my firebase project*)
+### 1. Firebase Integration (*if couldn't connect to already configured firebase project*)
 - Data persistence using Firestore
 - Phone authentication setup - enable phone auth provider
 - **Setup Instructions**:
