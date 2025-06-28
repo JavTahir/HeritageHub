@@ -4,9 +4,9 @@ import 'package:path/path.dart';
 
 class CloudinaryService {
   static final cloudinary = Cloudinary.signedConfig(
-    apiKey: '449528498158552',
-    apiSecret: 'YtzyhTeiGM2bbQq-XNhm9QS9h8E',
-    cloudName: 'dggu1xqaf',
+    apiKey: '',
+    apiSecret: '',
+    cloudName: '',
   );
 
   static Future<String> uploadImage(File imageFile) async {
